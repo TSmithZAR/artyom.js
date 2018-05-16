@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('View') {
+    stage('InitiateBuild') {
       steps {
-        echo 'test'
+        echo 'Starting build process'
       }
     }
   }
